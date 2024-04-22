@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url("./mario-bg.jpg");/*arka plana resim koymak için dosya yolunu belirtir*/
+    background-size: cover;/*reami ekrana sığdırır*/
+}
+
+#board {
+    width: 540px;
+    height: 540px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    background: url("./soil.png");
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+#board div {
+
+    width: 180px; 
+    height: 180px;
+    background-image: url("./pipe.png");
+    background-size: cover;
+}
+
+#board div img {
+    
+    width: 100px;
+    height: 100px;
+    user-select: none;
+-moz-user-select: none;/*Mozilla Firefox tarayıcısında kullanıcı seçimini devre dışı bırakır. Yani, kullanıcılar sayfa içeriğini seçip kopyalayamazlar.*/
+-webkit-user-drag: none;/*WebKit tabanlı tarayıcılarda (örneğin, Chrome ve Safari) sürükleme işlemlerini devre dışı bırakır. Bu, kullanıcıların belirli elementleri sürükleyerek başka bir yere taşımasını engeller.*/
+-webkit-user-select: none;/*WebKit tabanlı tarayıcılarda kullanıcı seçimini devre dışı bırakır. Yani, kullanıcılar sayfa içeriğini seçip kopyalayamazlar.*/
+-ms-user-select: none;/*Internet Explorer tarayıcısında kullanıcı seçimini devre dışı bırakır. Yani, kullanıcılar sayfa içeriğini seçip kopyalayamazlar.*/
+}
