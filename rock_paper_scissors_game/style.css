@@ -1,0 +1,13 @@
+body
+{
+    text-align: center;
+    font-size: xx-large;
+    background-color: blue;
+    justify-self: auto;
+}
+button
+{
+    font-size: xxx-large;
+    color: black;
+    background-color: blueviolet;
+}
