@@ -1,0 +1,7 @@
+#grid/*oyun tahtası*/
+{
+    display: inline;/*içerikleri aynı satırda sıralar*/
+    flex-wrap: wrap;/*içerikler sığmazsa bir alt satıra geçer*/
+    width: 400px;
+    height: 300px;
+}
